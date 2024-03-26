@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use App\Models\User;
+use App\Models\Tag;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
@@ -23,8 +25,11 @@ class PostController extends Controller
      */
     public function create()
     {
+        $this -> authorize('create', Post::class);
+
         return view('posts.create', [
-            'users' => User::all()
+            //'users' => User::all(),
+            'tags' => Tag::all()
         ]);
     }
 
@@ -33,17 +38,23 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        $this -> authorize('create', Post::class);
+
         $validated = $request -> validate([
             'title' => 'required|min:3',
             'content' => 'required|min:20',
-            'user_id' => 'required|integer|exists:users,id'
+            // 'user_id' => 'required|integer|exists:users,id',
+            'tags[]' => 'array',
+            'tags.*' => 'distinct|integer|exists:tags,id'
         ], [
             'title.required' => 'Marika néni, kéne cím.',
             'title.min' => 'Legalább :min karakter kell.'
         ]);
 
         // itt fixen jó minden :)
+        $validated['user_id'] = Auth::id();
         $p = Post::create($validated);
+        $p -> tags() -> sync($validated['tags'] ?? []);
         Session::flash('post-created', $p -> title);
         return redirect() -> route('posts.index');
     }
@@ -61,7 +72,13 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
-        //
+        $this -> authorize('update', $post);
+
+        return view('posts.edit', [
+            //'users' => User::all(),
+            'tags' => Tag::all(),
+            'post' => $post
+        ]);
     }
 
     /**
@@ -69,7 +86,25 @@ class PostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        //
+        $this -> authorize('update', $post);
+
+        $validated = $request -> validate([
+            'title' => 'required|min:3',
+            'content' => 'required|min:20',
+            // 'user_id' => 'required|integer|exists:users,id',
+            'tags[]' => 'array',
+            'tags.*' => 'distinct|integer|exists:tags,id'
+        ], [
+            'title.required' => 'Marika néni, kéne cím.',
+            'title.min' => 'Legalább :min karakter kell.'
+        ]);
+
+        // itt fixen jó minden :)
+        // $validated['user_id'] = Auth::id();
+        $post -> update($validated);
+        $post -> tags() -> sync($validated['tags'] ?? []);
+        Session::flash('post-updated', $post -> title);
+        return redirect() -> route('posts.index');
     }
 
     /**
@@ -77,6 +112,9 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
-        //
+        $this -> authorize('delete', $post);
+
+        $post -> delete();
+        return redirect() -> route('posts.index');
     }
 }

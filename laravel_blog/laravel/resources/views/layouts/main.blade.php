@@ -16,7 +16,19 @@
                 @yield('content')
             </div>
             <div class="">
-                Sidebar.
+                @auth
+                    Szia, {{ Auth::user() -> name }}!
+
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <a href="#" onclick="this.closest('form').submit()">Kijelentkezés</a>
+
+                    </form>
+                @endauth
+
+                @guest
+                    <a href="{{ route('login') }}">Bejelentkezés</a>
+                @endguest
             </div>
         </div>
     </div>
