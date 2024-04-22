@@ -1,0 +1,1356 @@
+[
+  {
+    "id": 1,
+    "species": "lion",
+    "legs": 99,
+    "pregnant": true,
+    "birthdate": "2016-03-25T09:14:03.277Z",
+    "ownerId": 3,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "species": "dog",
+    "legs": 3,
+    "pregnant": false,
+    "birthdate": "2016-03-21T05:22:05.882Z",
+    "ownerId": 4,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 1,
+        "name": "appello",
+        "calories": 41.86,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "species": "snake",
+    "legs": 38,
+    "pregnant": false,
+    "birthdate": "2015-09-02T22:41:35.790Z",
+    "ownerId": 9,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 4,
+        "name": "angelus",
+        "calories": 66.72,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "species": "bear",
+    "legs": 82,
+    "pregnant": false,
+    "birthdate": "2005-05-26T06:57:38.409Z",
+    "ownerId": 9,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "species": "rabbit",
+    "legs": 69,
+    "pregnant": false,
+    "birthdate": "2014-08-20T19:22:37.403Z",
+    "ownerId": 1,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "species": "cat",
+    "legs": 78,
+    "pregnant": false,
+    "birthdate": "2017-12-30T04:46:28.794Z",
+    "ownerId": 17,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "species": "bird",
+    "legs": 35,
+    "pregnant": false,
+    "birthdate": "2014-09-29T00:08:05.109Z",
+    "ownerId": 3,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 4,
+        "name": "angelus",
+        "calories": 66.72,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "species": "fish",
+    "legs": 50,
+    "pregnant": false,
+    "birthdate": "2010-01-22T20:36:26.598Z",
+    "ownerId": 10,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 4,
+        "name": "angelus",
+        "calories": 66.72,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "species": "cow",
+    "legs": 45,
+    "pregnant": true,
+    "birthdate": "2021-04-11T18:05:54.863Z",
+    "ownerId": 8,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "species": "bear",
+    "legs": 29,
+    "pregnant": false,
+    "birthdate": "2021-05-11T17:36:00.997Z",
+    "ownerId": 4,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "species": "rabbit",
+    "legs": 59,
+    "pregnant": false,
+    "birthdate": "2012-01-16T02:39:24.522Z",
+    "ownerId": 10,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "species": "crocodilia",
+    "legs": 20,
+    "pregnant": true,
+    "birthdate": "2007-09-16T02:09:07.661Z",
+    "ownerId": 2,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "species": "dog",
+    "legs": 7,
+    "pregnant": true,
+    "birthdate": "2015-10-08T06:55:59.976Z",
+    "ownerId": 17,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 4,
+        "name": "angelus",
+        "calories": 66.72,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "species": "snake",
+    "legs": 91,
+    "pregnant": false,
+    "birthdate": "2015-06-04T03:12:03.754Z",
+    "ownerId": 13,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "species": "insect",
+    "legs": 58,
+    "pregnant": true,
+    "birthdate": "2009-06-12T03:48:21.413Z",
+    "ownerId": 10,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "species": "bird",
+    "legs": 5,
+    "pregnant": true,
+    "birthdate": "2021-01-23T13:37:12.752Z",
+    "ownerId": 8,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "species": "horse",
+    "legs": 65,
+    "pregnant": false,
+    "birthdate": "2006-08-04T15:32:14.684Z",
+    "ownerId": 6,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "species": "dog",
+    "legs": 45,
+    "pregnant": true,
+    "birthdate": "2023-11-07T11:21:24.632Z",
+    "ownerId": 18,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "species": "rabbit",
+    "legs": 22,
+    "pregnant": true,
+    "birthdate": "2020-02-07T05:55:42.912Z",
+    "ownerId": 7,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 4,
+        "name": "angelus",
+        "calories": 66.72,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "species": "dog",
+    "legs": 81,
+    "pregnant": true,
+    "birthdate": "2010-01-16T21:06:38.902Z",
+    "ownerId": 12,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 10,
+        "name": "denuo",
+        "calories": 51.79,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "species": "bear",
+    "legs": 18,
+    "pregnant": false,
+    "birthdate": "2021-10-15T19:43:14.515Z",
+    "ownerId": 1,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "species": "insect",
+    "legs": 81,
+    "pregnant": false,
+    "birthdate": "2004-07-04T18:03:55.996Z",
+    "ownerId": 8,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "species": "crocodilia",
+    "legs": 81,
+    "pregnant": true,
+    "birthdate": "2008-05-02T15:16:37.402Z",
+    "ownerId": 16,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "species": "crocodilia",
+    "legs": 58,
+    "pregnant": true,
+    "birthdate": "2013-09-10T00:36:09.219Z",
+    "ownerId": 1,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "species": "fish",
+    "legs": 81,
+    "pregnant": false,
+    "birthdate": "2004-11-08T07:56:37.425Z",
+    "ownerId": 2,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "species": "crocodilia",
+    "legs": 60,
+    "pregnant": true,
+    "birthdate": "2009-03-15T19:09:41.247Z",
+    "ownerId": 16,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 4,
+        "name": "angelus",
+        "calories": 66.72,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "species": "crocodilia",
+    "legs": 53,
+    "pregnant": false,
+    "birthdate": "2012-02-05T04:42:52.167Z",
+    "ownerId": 8,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "species": "crocodilia",
+    "legs": 96,
+    "pregnant": false,
+    "birthdate": "2022-11-28T23:25:57.467Z",
+    "ownerId": 12,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 4,
+        "name": "angelus",
+        "calories": 66.72,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "species": "dog",
+    "legs": 55,
+    "pregnant": false,
+    "birthdate": "2020-01-17T11:55:50.911Z",
+    "ownerId": 15,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 4,
+        "name": "angelus",
+        "calories": 66.72,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 6,
+        "name": "cervus",
+        "calories": 90.93,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 7,
+        "name": "careo",
+        "calories": 2.58,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 9,
+        "name": "acceptus",
+        "calories": 4.31,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "species": "crocodilia",
+    "legs": 22,
+    "pregnant": false,
+    "birthdate": "2020-11-18T04:18:44.191Z",
+    "ownerId": 13,
+    "createdAt": "2024-04-22T14:50:24.875Z",
+    "updatedAt": "2024-04-22T14:50:24.875Z",
+    "Food": [
+      {
+        "id": 2,
+        "name": "degenero",
+        "calories": 26.06,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 3,
+        "name": "autem",
+        "calories": 25.05,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 5,
+        "name": "aegrus",
+        "calories": 15.27,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      },
+      {
+        "id": 8,
+        "name": "supellex",
+        "calories": 62.77,
+        "createdAt": "2024-04-22T14:50:24.884Z",
+        "updatedAt": "2024-04-22T14:50:24.884Z"
+      }
+    ]
+  }
+]

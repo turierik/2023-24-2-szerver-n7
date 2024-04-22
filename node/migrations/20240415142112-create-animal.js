@@ -27,6 +27,16 @@ module.exports = {
         allowNull: false,
         unique: true
       },
+      ownerId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: 'humans',
+          key: 'id'
+        },
+        onDelete: 'cascade',
+        onUpdate: 'cascade'
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

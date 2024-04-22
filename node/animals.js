@@ -1,6 +1,8 @@
-const { Animal } = require('./models')
+const { Animal, Human, Food } = require('./models')
 const sequelize = require('sequelize')
 const Op = sequelize.Op
+const { writeFileSync } = require('fs');
+const animal = require('./models/animal');
 
 const niceLog = (data) => console.log(JSON.parse(JSON.stringify(data, null, 2)))
 
@@ -86,5 +88,70 @@ const niceLog = (data) => console.log(JSON.parse(JSON.stringify(data, null, 2)))
     niceLog(await Animal.findAll({
         order: [ ['birthdate', 'ASC' ]],
         limit: 5
+    }))
+
+    // 14. add meg az összes állat összes adatát a gazdi adataival együtt
+    // const animals = await Animal.findAll()
+    // for (const anim of animals){
+    //     const owner = await anim.getOwner()
+    //     anim.dataValues.owner = owner
+    // }
+    // niceLog(animals)
+
+    niceLog(await Animal.findAll({
+        include: [ { model: Human , as: 'owner' } ]
+    }))
+
+    // 15. add meg az összes állat összes adatát és azt, hogy mit kajálnak :)
+    niceLog(await Animal.findAll({
+        include: [ { model: Food } ]
+    }))
+
+    // 15/B. add meg az összes állat összes adatát és azt, hogy mit kajálnak :) (kapcsolótábla adatai nélkül)
+    niceLog(await Animal.findAll({
+        include: [ { model: Food, through: { attributes: [] } } ]
+    }))
+
+    // 16. add meg az összes állat adatát, a gazdi adatait és a kajákat is
+    niceLog(await Animal.findAll({
+        include: [
+            { model: Human, as: 'owner' },
+            { model: Food, through: { attributes: [] }}
+        ]
+    }))
+
+    // 17. add meg a terhes állatok lábainak számát és faját, és a gazdi nevét és korát
+    niceLog(await Animal.findAll({
+        attributes: ['legs', 'species'],
+        where: { pregnant: true },
+        include: [ { model: Human, as: 'owner' , attributes: ['name', 'age']} ]
+    }))
+    
+    // 18. add meg a gazdik nevét és az állataik számát
+    niceLog(await Human.findAll({
+        attributes: ['name', 
+            [ sequelize.fn('COUNT', sequelize.col('animals.id')), 'animalCount' ]
+        ],
+        include: [ { model: Animal, attributes: [] } ],
+        group: ['human.id']
+    }))
+
+    // 19. add meg, hogy az egyes gazdák állatainak átlagosan hány lába van
+    niceLog(await Human.findAll({
+        attributes: ['name', 
+            [ sequelize.fn('AVG', sequelize.col('animals.legs')), 'avgLegs' ]
+        ],
+        include: [ { model: Animal, attributes: [] } ],
+        group: ['human.id']
+    }))
+
+    // 20. add meg azokat a gazdikat, akiknek 0 állata van
+    niceLog(await Human.findAll({
+        attributes: ['name', 
+            [ sequelize.fn('COUNT', sequelize.col('animals.id')), 'animalCount' ]
+        ],
+        include: [ { model: Animal, attributes: [] } ],
+        group: ['human.id'],
+        having: { animalCount : 0},
     }))
 })()
