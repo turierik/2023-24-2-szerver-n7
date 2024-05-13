@@ -2,6 +2,9 @@ const fastify = require("fastify")({
     logger: true
 });
 const { Animal, Human, Food } = require("./models");
+const setupGraphQL = require("./graphql");
+
+setupGraphQL(fastify);
 
 fastify.register(require("@fastify/jwt"), {
     secret: "secret"

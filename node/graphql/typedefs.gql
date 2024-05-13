@@ -1,0 +1,52 @@
+type Query {
+    # Elemi példa:
+    helloWorld: String
+
+    # Példa paraméterezésre:
+    helloName(name: String!): String
+
+    # TODO: Készítsd el a schema hiányzó részeit
+    getAnimals: [Animal]!
+    getAnimalById(id: ID!): Animal
+    getAnimalsByOwnerName(name: String!): [Animal]!
+}
+
+type Animal {
+    id: ID!
+    species: String
+    legs: Int!
+    pregnant: Boolean!
+    birthdate: DateTime!
+    ownerId: ID!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+    owner: Human!
+    food: [Food]!
+}
+
+type Human {
+    id: ID!
+    name: String!
+    age: Int!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+    animals: [Animal]
+}
+
+input CreateHumanInput {
+    name: String!
+    age: Int!
+}
+
+type Mutation {
+    createHuman(input: CreateHumanInput!): Human
+}
+
+type Food {
+    id: ID!
+    name: String!
+    calories: Float!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+    animals: [Animal]!
+}
